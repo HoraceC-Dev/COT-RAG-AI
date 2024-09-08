@@ -7,22 +7,21 @@ Nowadays, companies have been introducing AI and various algorithms in the form 
 
 This project addresses these challenges and aims to develop a more comprehensive chatbot model. The solution integrates the capabilities of pre-trained models like ChatGPT with a custom-built Retrieval-Augmented Generation (RAG) system. 
 
-## RAG
+--
+## Retrieval-Augmented Generation (RAG)
 RAG is a commonly used technique for GPT models to improve the accuracy of information by providing access to an external knowledge base.
 Secondly, it offers a means to expand the scope of the model's responses without fine-tuning or training on every single piece of information. 
 
-Here is an ex
+![RAG Example](./Screenshot%202024-09-08%20162625.png)
+--
+## Customized RAG
+In the world of RAG, there are numerous ways to implement RAG systems with models like GPT. I have developed a new system that leverages semantic search to handle complex customer service queries.
 
----
+My system works as follows:
 
-## 🌟 Features
-- **Flexibility**: Given a set of executable workflows, the chatbot is capable of fulfilling queries in various fields.
-- **Backend Integration**: Connects the chatbot to a backend system (e.g., a database or a third-party API) to fetch dynamic data.
-- **Generative AI**: Leverages OpenAI's models to provide human-like responses to user queries.
-- **Scalability**: Leverages the RAG system to retrieve decision flows for corresponding queries using a single Generative AI model.
-- **Context-Aware Responses**: The chatbot can maintain conversational context for more natural interactions.
----
-### Prerequisites:
-- Python 3.8
-- OpenAI API Key
-- Docker (optional)
+- **Customer Queries**: Complex customer service queries are encoded into semantic embeddings, which capture the meaning of the query instead of just the literal words.
+  
+- **Semantic Search**: The encoded query is used to perform a semantic similarity search in an external database containing a collection of past customer service issues and their corresponding solutions.
+
+- **Workflows (SOPs)**: The retrieved values are a question associated with **workflows** (Standard Operating Procedures or SOPs), which guide the model through the necessary steps to resolve the issue.
+
