@@ -24,4 +24,8 @@ My system works as follows:
 - **Semantic Search**: The encoded query is used to perform a semantic similarity search in an external database containing a collection of past customer service issues and their corresponding solutions.
 
 - **Workflows (SOPs)**: The retrieved values are a question associated with **workflows** (Standard Operating Procedures or SOPs), which guide the model through the necessary steps to resolve the issue.
+![Screenshot](./Screenshot%202024-09-08%20172755.png)
 
+### Features of Enhanced RAG-Based Model
+- **Reliability**: The chatbot is capable of adhering strictly to the predefined workflow like the standard algorithm-driven models.
+- **Flexibility**: The integration of GPT enables the model to respond adaptively depending on the scenario, simulating human-like decision-making.
