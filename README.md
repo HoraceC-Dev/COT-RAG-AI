@@ -1,8 +1,18 @@
-# Humanlized-RAG-System
+# AI Integration in Customer Service: Addressing the Limitations with RAG
 
-This project introduces a new chatbot model that combines ChatGPT and a custom-built Retrieval-Augmented Generation (RAG) system. 
-The chatbot can solve complex decision trees related to a specific domain, mimicking human-like decision-making.
-This approach offers an effective fine-tuning solution, reducing the need for high-cost retraining processes. 
+Nowadays, companies have been introducing AI and various algorithms in the form of chatbots to enhance customer experience. a noticeable and significant gap remains between chatbots and actual human agents. Specifically, chatbots often struggle with:
+- Understanding complex or nuanced customer queries where they involve multiple decision trees.
+- Handling unexpected or edge-case scenarios.
+- Adapting to the context or history of customer interactions, a common limitation in traditional algorithm-driven chatbots.
+
+This project addresses these challenges and aims to develop a more comprehensive chatbot model. The solution integrates the capabilities of pre-trained models like ChatGPT with a custom-built Retrieval-Augmented Generation (RAG) system. 
+
+## RAG
+RAG is a commonly used technique for GPT models to improve the accuracy of information by providing access to an external knowledge base.
+Secondly, it offers a means to expand the scope of the model's responses without fine-tuning or training on every single piece of information. 
+
+Here is an ex
+
 ---
 
 ## 🌟 Features
