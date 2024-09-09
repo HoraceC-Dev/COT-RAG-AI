@@ -15,7 +15,7 @@ Secondly, it offers a means to expand the scope of the model's responses without
 ![RAG Example](./Screenshot%202024-09-08%20162625.png)
 --
 ## Customized RAG
-In the world of RAG, there are numerous ways to implement RAG systems with models like GPT. I have developed a new system that leverages semantic search to handle complex customer service queries.
+In the world of RAG, there are numerous ways to implement RAG systems with models like GPT. This project showcases a new system that leverages semantic search to handle complex customer service queries.
 
 My system works as follows:
 
