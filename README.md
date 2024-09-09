@@ -29,3 +29,4 @@ My system works as follows:
 ### Features of Enhanced RAG-Based Model
 - **Reliability**: The chatbot is capable of adhering strictly to the predefined workflow like the standard algorithm-driven models.
 - **Flexibility**: The integration of GPT enables the model to respond adaptively depending on the scenario, simulating human-like decision-making.
+- **Scalability**: Strictly reduce the need to incorporate multiple models since this retrieval system allows all-in-one as long as the questions and flows are correctly imported.
