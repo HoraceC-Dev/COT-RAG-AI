@@ -35,3 +35,7 @@ class Dataset():
 
         embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
         return Chroma.from_documents(documents, embeddings, collection_name="demo")
+        # Main function of the class to create a dataset and vectorize documents
+    def dataset_creation(self):
+        list_of_docs = self._docs_transformation()
+        return self._vectorization(list_of_docs)
