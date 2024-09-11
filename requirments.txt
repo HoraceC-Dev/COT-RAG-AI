@@ -10,3 +10,4 @@ typing-extensions
 langgraph
 langchain-community
 langgraph.checkpoint.sqlite
+python-dotenv
