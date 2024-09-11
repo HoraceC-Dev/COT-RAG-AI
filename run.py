@@ -1,4 +1,4 @@
-from src.custom_tool_function import CustomToolFunction
+from src.custom_tools import CustomToolFunction
 from src.chatbot import initialize_resources
 from src.graph_setup import set_up_graph 
 from src.demonstrations import demonstration_example_1, demonstration_example_2 
