@@ -1,5 +1,20 @@
-# AI Integration in Customer Service: Addressing the Limitations with RAG
+<div align="center">
+    <h1>COT RAG-AI Integration: Maximize the Potential of RAG</h1>
+</div>
+<div align="center">
+    <p>:star: **Empowering AI Agents with human-like reasoning and chain-of-thought capabilities.** :star:</p>
+</div>
 
+## Table of Contents
+- [Introduction](#Introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [Installation](#installation)
+- [License](#license)
+- [Disclaimer](#Disclaimer)
+
+
+# Introduction
 Nowadays, companies have been introducing AI and various algorithms in the form of chatbots to enhance customer experience. Nevertheless, a noticeable and significant gap remains between chatbots and actual human agents. Specifically, chatbots often struggle with:
 - Understanding complex or nuanced customer queries where they involve multiple decision trees.
 - Handling unexpected or edge-case scenarios.
@@ -14,7 +29,7 @@ This method offers several advantages:
 - It improves the model's accuracy by retrieving relevant information at query time.
 - It expands the model’s scope by allowing it to respond to a wide range of questions without needing to be fine-tuned on every possible piece of information.
 
-![RAG Example](./Screenshot%202024-09-08%20162625.png)
+![RAG Example](./assets/Sample%20RAG%20Workflow%20.png)
 
 
 --
@@ -30,7 +45,7 @@ In the world of RAG, there are numerous ways to implement RAG systems with model
 
 - **Workflows (SOPs)**: The retrieved results are associated with specific workflows (Standard Operating Procedures), which guide the model through the necessary steps to resolve the issue. These workflows are contextually related to the query and provide detailed procedural guidance to the chatbot.
 
-![Screenshot](./Screenshot%202024-09-08%20172755.png)
+![Screenshot](./assets/Example.png)
 
 The model doesn’t just provide static answers but also guides the customer through a dynamic process that adapts based on the query and user's responses.
 
@@ -49,3 +64,9 @@ LangChain integrates language models with external data sources, making it easie
 
 **LangGraph**:
 LangGraph allows the creation of more sophisticated, graph-based workflows that provide better structure and flow control for the chatbot’s decision-making process.
+
+# License
+This project is licensed under the MIT License - see the [LICENSE](License) file for details.
+
+# Disclaimer
+The COT RAG System is intended for educational purposes only. The creator assumes no responsibility for any consequences arising from it use. Users are advised to comply with appropriate terms of service of relevant usage and adhere to all applicable laws, regulartions, and ethical guidlines.
