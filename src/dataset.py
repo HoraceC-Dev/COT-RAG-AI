@@ -26,7 +26,8 @@ class Dataset():
         ]
 
     # Converts documents into a vector store using OpenAI embeddings and Chroma
-    def _vectorization(self, documents):
+    @staticmethod
+    def _vectorization(documents):
         chromadb_client = chromadb.Client()
         try:
             chromadb_client.create_collection(name="demo")
@@ -35,6 +36,7 @@ class Dataset():
 
         embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
         return Chroma.from_documents(documents, embeddings, collection_name="demo")
+    
         # Main function of the class to create a dataset and vectorize documents
     def dataset_creation(self):
         list_of_docs = self._docs_transformation()
